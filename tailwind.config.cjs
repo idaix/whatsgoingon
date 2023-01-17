@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'brand': ['"UnifrakturMaguntia"', 'serif'] // Ensure fonts with spaces have " " surrounding it.
+      },
       // colors
       colors: {
         primary: {
